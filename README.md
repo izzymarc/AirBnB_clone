@@ -1,4 +1,3 @@
----
 
 # AirBnB Clone - The Console
 
@@ -132,5 +131,3 @@ git shortlog -se \
   | sed -e '/^CommitSyncScript.*$/d' \
   > AUTHORS
 ```
-
----
