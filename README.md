@@ -12,9 +12,9 @@
 
 ## Introduction
 
-This team project aims to build a clone of [AirBnB](https://www.airbnb.com/). The console is a command interpreter to manage the abstraction between objects and how they are stored. This includes creating new objects, retrieving objects from a file, performing operations on objects, and destroying objects.
+The AirBnB Clone project is a collaborative effort aimed at replicating the functionality of the popular accommodation booking platform, AirBnB. The core component of this project is the Console, which serves as a command-line interface facilitating various operations related to object management and storage. These operations include creating, retrieving, updating, and deleting objects, providing a seamless interaction with the underlying data structure.
 
-For a fundamental background of the project, visit the [Wiki](https://github.com/izzymarc/AirBnB_clone/wiki).
+For detailed information about the project, please refer to the  [Wiki](https://github.com/izzymarc/AirBnB_clone/wiki).
 
 ### Storage
 
@@ -22,9 +22,9 @@ All classes are managed by the `Storage` engine in the `FileStorage` Class.
 
 ## Environment
 
-The project is developed and tested on Ubuntu 20.04 LTS using Python 3.8.3. Editors used include VIM 8.1.2269, Visual Studio Code 1.6.1, and Atom 1.58.0. Version control is handled with Git 2.25.1.
+The project development and testing are conducted on Ubuntu 20.04 LTS using Python 3.8.3. Editors employed during the development process include VIM 8.1.2269, Visual Studio Code 1.6.1, and Atom 1.58.0. Version control is managed through Git 2.25.1.
 
-Style guidelines:
+The project adheres to the following style guidelines:
 - [pycodestyle (version 2.7.*)](https://pypi.org/project/pycodestyle/)
 - [PEP8](https://pep8.org/)
 
@@ -89,11 +89,13 @@ Tests are located in the `tests` folder. For documentation and unit tests:
 
 ### Python Unit Tests
 
-- Use the unittest module.
-- File extension `.py`.
-- Files and folders start with `test_`.
-- For `models/base.py`, unit tests are in: `tests/test_models/test_base.py`.
-- To run all tests: `python3 -m unittest discover tests`.
+The unit tests in the project adhere to the following conventions:
+
+- Utilize the unittest module.
+- Files have the `.py` extension.
+- Files and folders start with `test_.`
+- For `models/base.py`, unit tests are located in `tests/test_models/test_base.py.`
+- To execute all tests: `python3 -m unittest discover tests`.
 
 ## Usage
 
